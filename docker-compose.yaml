@@ -10,7 +10,7 @@ services:
       PGID: 1000
       EULA: 1
     volumes:
-      - /mnt/nasworld/Mc1:/data
+      - /mnt/nasworld/mc1:/data
     ports:
       - 8080:8080
       - 25565:25565
