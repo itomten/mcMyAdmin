@@ -7,7 +7,7 @@ services:
     container_name: mc1myadmin
     environment:
       PUID: 1000
-      PGID: 1000
+      PGID: 100
       EULA: 1
     volumes:
       - /mnt/nasworld/mc1:/data
