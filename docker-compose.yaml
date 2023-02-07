@@ -4,13 +4,13 @@ services:
 
   mcmyadmin:
     image: tekgator/docker-mcmyadmin:latest
-    container_name: mcmyadmin
+    container_name: mc1myadmin
     environment:
       PUID: 1000
       PGID: 1000
       EULA: 1
     volumes:
-      - /mnt/nasworld/singelMc1:/data
+      - /mnt/nasworld/Mc1:/data
     ports:
       - 8080:8080
       - 25565:25565
