@@ -6,8 +6,8 @@ services:
     image: tekgator/docker-mcmyadmin:latest
     container_name: mcmyadmin
     environment:
-      PUID: 1000
-      PGID: 100
+      PUID: 1001
+      PGID: 1001
       EULA: 1
     volumes:
       - ./mcmyadmin:/data
