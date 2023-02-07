@@ -7,7 +7,7 @@ services:
     container_name: mcmyadmin
     environment:
       PUID: 1000
-      PGID: 1000
+      PGID: 100
       EULA: 1
     volumes:
       - ./mcmyadmin:/data
